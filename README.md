@@ -3,7 +3,7 @@
 1. ScreenLib类 封装了模糊找色，屏幕点击，屏幕滑动等方法。
 1. TsFrame抽象类 封装了脚本的逻辑流程（帮助你快速开发脚本）
 1. Fa和Fb 都是继承自F，他们大部分方法都是一样的。重新封装了屏幕点击和模糊找色的方法给TsFrame.
-1. 继承关系：ScreenLib → F → Fa
+1. 继承关系：ScreenLib → F → Fa（Fb同此）
 
 ### 怎么创建一个游戏脚本？
 1. 创建一个class继承TsFrame重写getFa和getFb方法即可。
