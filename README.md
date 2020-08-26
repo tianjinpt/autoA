@@ -6,7 +6,7 @@
 public class ScriptTest extends TsFrame {
     
     //Fa和Fb都是继承自F，他们大部分方法都是一样的。
-    //Fa和Fb封装了屏幕点击的方法给TsFrame
+    //Fa和Fb重新封装了屏幕点击和模糊找色的方法给TsFrame
     //Fa和Fb 的fcallback参数 传递一个实现Fcallback接口的内部类 作为回调。（复杂逻辑的脚本应该使用它）
     
     @Override
