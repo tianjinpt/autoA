@@ -38,8 +38,8 @@ public class ScriptTest extends TsFrame {
 ```
 
 ### 触动精灵用户快速上手
-   取色工具可以用触动精灵的取色工具`TSColorPick`触动精灵官网下载（手机取色工具代码好像被我误删了）
-   ScreenLib.findColor()方法参数同触动精灵的findMultiColorInRegionFuzzy()函数（细微区别下面解说），所以`TSColorPick`自动生成的代码可以直接把参数给ScreenLib.findColor()
+1. 取色工具可以用触动精灵的取色工具`TSColorPick`触动精灵官网下载（手机取色工具代码好像被我误删了）
+1. ScreenLib.findColor()方法参数同触动精灵的findMultiColorInRegionFuzzy()函数（细微区别下面解说），所以`TSColorPick`自动生成的代码可以直接把参数给ScreenLib.findColor()
    
 ## ScreenLib.findColor()与触动精灵findMultiColorInRegionFuzzy()参数的差别
 1. ScreenLib.findColor() x,y,x2,y2找色范围，可以是整数，也可以是小数（即百分比）
