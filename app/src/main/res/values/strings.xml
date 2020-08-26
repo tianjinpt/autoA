@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">脚本s</string>
+    <string name="title_home">主 页</string>
+    <string name="title_dashboard">应 用</string>
+    <string name="title_notifications">消 息</string>
+    <string name="accessibility_service_description">免root模拟点击。  </string>
+    <string name="accessibility_service_label">autoAndroid 作者QQ:2920007919</string>
+    <string name="menu_title_f">悬浮窗</string>
+    <string name="menu_title_a">无障碍服务</string>
+    <string name="menuiy">竖屏</string>
+    <string name="menuix">横屏</string>
+
+    <string name="float_string_but">run</string>
+</resources>
